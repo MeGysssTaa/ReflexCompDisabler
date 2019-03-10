@@ -1,0 +1,11 @@
+name: ReflexCompDisabler
+main: me.darksidecode.reflexcompdisabler.ReflexCompDisabler
+version: 1.0.0
+depend: [Reflex]
+commands:
+  reflexcompdisabler:
+    permission: reflexcompdisabler.use
+    usage: reflexcompdisabler <on/off> <component name>
+permissions:
+  reflexcompdisabler.use:
+    default: op
